@@ -188,8 +188,8 @@ information.
 | [<img alt="Grayray75" src="https://github.com/Grayray75.png" width="100">](https://github.com/Grayray75) | [<img alt="alexiayaa" src="https://github.com/alexiayaa.png" width="100">](https://github.com/alexiayaa) |
 | [<img alt="alexiayaa" src="https://github.com/pigerstreet.png" width="100">](https://github.com/pigerstreet) |
 
-|                                   [Grayray75](https://github.com/Grayray75)                                    |                                   [alexiayaa](https://github.com/alexiayaa)                
-[pigerstreet](https://github.com/pigerstreet)                                |
+|                                   [Grayray75](https://github.com/Grayray75)                                    |                                                       [alexiayaa](https://github.com/alexiayaa)                
+                                            [pigerstreet](https://github.com/pigerstreet)                                |
 
 
 ### Translators
