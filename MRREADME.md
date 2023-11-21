@@ -532,13 +532,3 @@ Click [#Gallery](https://modrinth.com/mod/skyblocker-liap/gallery) for images to
 
 </details>
 
-## Kinetic Hosting Affiliate - 15% off your first month
-
-Looking for an affordable and reliable hosting platform for your Minecraft server? Look no further than Kinetic Hosting! As an affiliate partner with Kinetic Hosting, we highly recommend their service. They offer fast and reliable servers with the largest range of supported modpacks.
-
-As a special offer for our audience, you can **<u>[use the discount code "Skyblocker" during checkout to get 15% off your first month](https://billing.kinetichosting.net/aff.php?aff=315)</u>**.
-This helps to cover our server costs.
-
-[![Kinetic-hosting](https://raw.githubusercontent.com/SkyblockerMod/Skyblocker-Assets/images/other/Kinetic-Hosting_Skyblocker.png)](https://billing.kinetichosting.net/aff.php?aff=315)
-
-So what are you waiting for? Click on the **<u>[link](https://billing.kinetichosting.net/aff.php?aff=315)</u>** to check out Kinetic Hosting and start playing with your friends today!
