@@ -551,6 +551,18 @@ public class SkyblockerConfig {
 		public boolean officialWiki = false;
 	}
 
+	public static class ChestValue {
+		@SerialEntry
+		public boolean enableChestValue = true;
+
+		@SerialEntry
+		public Formatting color = Formatting.DARK_GREEN;
+
+		@SerialEntry
+		public Formatting incompleteColor = Formatting.BLUE;
+	}
+
+
 	public static class SpecialEffects {
 		@SerialEntry
 		public boolean rareDungeonDropEffects = true;

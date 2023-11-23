@@ -6,11 +6,13 @@ import de.hysky.skyblocker.skyblock.shortcut.ShortcutsConfigScreen;
 import de.hysky.skyblocker.utils.render.title.TitleContainerConfigScreen;
 import de.hysky.skyblocker.utils.waypoint.Waypoint;
 import dev.isxander.yacl3.api.*;
+import de.hysky.skyblocker.config.controllers.EnumDropdownControllerBuilder;
 import dev.isxander.yacl3.api.controller.FloatFieldControllerBuilder;
 import dev.isxander.yacl3.api.controller.FloatSliderControllerBuilder;
 import dev.isxander.yacl3.api.controller.IntegerSliderControllerBuilder;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 
 public class GeneralCategory {
 
@@ -452,6 +454,36 @@ public class GeneralCategory {
 										() -> config.general.wikiLookup.officialWiki,
 										newValue -> config.general.wikiLookup.officialWiki = newValue)
 								.controller(ConfigUtils::createBooleanController)
+								.build())
+						.build())
+
+
+		//Chest Value
+				.group(OptionGroup.createBuilder()
+						.name(Text.translatable("text.autoconfig.skyblocker.option.general.chestValue"))
+						.collapsed(true)
+						.option(Option.<Boolean>createBuilder()
+								.name(Text.translatable("text.autoconfig.skyblocker.option.general.chestValue.enableChestValue"))
+								.description(OptionDescription.of(Text.translatable("text.autoconfig.skyblocker.option.general.chestValue.enableChestValue.@Tooltip")))
+								.binding(defaults.general.chestValue.enableChestValue,
+										() -> config.general.chestValue.enableChestValue,
+										newValue -> config.general.chestValue.enableChestValue = newValue)
+								.controller(ConfigUtils::createBooleanController)
+								.build())
+						.option(Option.<Formatting>createBuilder()
+								.name(Text.translatable("text.autoconfig.skyblocker.option.general.chestValue.color"))
+								.binding(defaults.general.chestValue.color,
+										() -> config.general.chestValue.color,
+										newValue -> config.general.chestValue.color = newValue)
+								.controller(EnumDropdownControllerBuilder.getFactory(ConfigUtils.FORMATTING_TO_STRING))
+								.build())
+						.option(Option.<Formatting>createBuilder()
+								.name(Text.translatable("text.autoconfig.skyblocker.option.general.chestValue.incompleteColor"))
+								.description(OptionDescription.of(Text.translatable("text.autoconfig.skyblocker.option.general.chestValue.incompleteColor.@Tooltip")))
+								.binding(defaults.general.chestValue.incompleteColor,
+										() -> config.general.chestValue.incompleteColor,
+										newValue -> config.general.chestValue.incompleteColor = newValue)
+								.controller(EnumDropdownControllerBuilder.getFactory(ConfigUtils.FORMATTING_TO_STRING))
 								.build())
 						.build())
 
