@@ -207,6 +207,10 @@ public class SkyblockerConfig {
 		public WikiLookup wikiLookup = new WikiLookup();
 
 		@SerialEntry
+		public ChestValue chestValue = new ChestValue();
+
+
+		@SerialEntry
 		public SpecialEffects specialEffects = new SpecialEffects();
 
 		@SerialEntry
